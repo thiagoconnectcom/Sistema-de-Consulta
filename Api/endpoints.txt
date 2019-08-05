@@ -1,0 +1,10 @@
+           GET|HEAD  | api/notification                   |                  | App\Http\Controllers\NotificationController@index | api        |
+|        | GET|HEAD  | api/notification/{notification_id} |                  | App\Http\Controllers\NotificationController@show  | api        |
+|        | GET|HEAD  | api/schedule                       | schedule.index   | App\Http\Controllers\ScheduleController@index     | api        |
+|        | POST      | api/schedule                       | schedule.store   | App\Http\Controllers\ScheduleController@store     | api        |
+|        | GET|HEAD  | api/schedule/{schedule}            | schedule.show    | App\Http\Controllers\ScheduleController@show      | api        |
+|        | PUT|PATCH | api/schedule/{schedule}            | schedule.update  | App\Http\Controllers\ScheduleController@update    | api        |
+|        | DELETE    | api/schedule/{schedule}            | schedule.destroy | App\Http\Controllers\ScheduleController@destroy   | api
+
+patient
+date
